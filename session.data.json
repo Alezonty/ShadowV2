@@ -65,8 +65,7 @@
         }
       }
     ],
-    "lastAccountSyncTimestamp": 1656855981,
-    "myAppStateKeyId": "AAAAAHSX"
+    "lastAccountSyncTimestamp": 1656855981
   },
   "keys": {
     "preKeys": {
@@ -405,20 +404,6 @@
           }
         },
         "version": "v1"
-      }
-    },
-    "appStateSyncKeys": {
-      "AAAAAHSX": {
-        "keyData": "oMfZ18CzuRurq8v54dc6l1WABezLq8gAfHpSRGM8bRg=",
-        "fingerprint": {
-          "rawId": 2003272326,
-          "currentIndex": 1,
-          "deviceIndexes": [
-            0,
-            1
-          ]
-        },
-        "timestamp": "1656855983060"
       }
     }
   }
