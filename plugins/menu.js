@@ -35,14 +35,13 @@ let tags = {
 }
 const defaultMenu = {
   before:`
-┌─「 *${global.namebot}* 」
+┌─「 *VenBotz* 」
 ├ Hai, %name!
 ├ Tersisa *%limit Limit*
 ├ Role *%role*
 ├ Level *%level (%exp / %maxexp)*
 ├ [%xp4levelup]
 ├ %totalexp XP secara Total
-├ Prefix [%p]
 │ 
 ├ Tanggal: *%week %weton, %date*
 ├ Tanggal Islam: *%dateIslamic*
@@ -159,9 +158,9 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://trakteer.id/RezzBot', 'Website🌟', '', '', [
-      ['Donate🌟', '/donasi'],
-      ['Sewa Bot🌟', '/sewa'],
-      ['Owner🌟', '/owner']
+      ['Donate💸', '/donasi'],
+      ['Sewa Bot🤖', '/sewa'],
+      ['Owner👑', '/owner']
     ], m)
     /*let url = `https://telegra.ph/file/1d7c19891e2474f07e97d.png`.trim()
     let res = await fetch(url)
