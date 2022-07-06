@@ -35,7 +35,7 @@ let tags = {
 }
 const defaultMenu = {
   before:`
-┌─「 *VenBotz* 」
+┌─「 *[ VEN BOTZ ]* 」
 ├ Hai, %name!
 ├ Tersisa *%limit Limit*
 ├ Role *%role*
